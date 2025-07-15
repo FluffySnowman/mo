@@ -5,6 +5,16 @@ Alternative to s3cmd, aws cli, etc.
 Don't expect updated or correct documentation. This repository is a tool I built
 which I use myself and the code just happens to be publicly available.
 
+Table of contents:
+
+<!--toc:start-->
+- [Mo - S3 compatible CLI manager for object storage](#mo-s3-compatible-cli-manager-for-object-storage)
+- [Installation](#installation)
+    - [From Release (download executable):](#from-release-download-executable)
+    - [Build from source:](#build-from-source)
+- [Thing for the thing of the thing's thing](#thing-for-the-thing-of-the-things-thing)
+<!--toc:end-->
+
 # Installation
 
 ### From Release (download executable):
