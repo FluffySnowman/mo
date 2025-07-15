@@ -18,7 +18,7 @@ sudo curl -L -o /usr/local/bin/mo https://github.com/FluffySnowman/mo/releases/d
 - Wget
 
 ```bash
-sudo wget -O /usr/local/bin/mo https://github.com/FluffySnowman/mo/releases/download/v1.0.0/mo_x86_64-unknown-linux-gnu && sudo chmod +x /usr/local/bin/sp 
+sudo wget -O /usr/local/bin/mo https://github.com/FluffySnowman/mo/releases/download/v1.0.0/mo_x86_64-unknown-linux-gnu && sudo chmod +x /usr/local/bin/mo
 ```
 
 
