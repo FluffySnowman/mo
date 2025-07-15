@@ -1,0 +1,22 @@
+root = true
+
+# all files
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+indent_style = space
+tab_width = 2
+indent_size = 2
+max_line_length = 80
+
+# go (golang)
+[*.go]
+end_of_line = lf
+indent_size = 4
+tab_width = 4
+indent_style = tab
+max_line_length = 80
+insert_final_newline = true
+charset = utf-8
+
