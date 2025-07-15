@@ -5,7 +5,35 @@ Alternative to s3cmd, aws cli, etc.
 Don't expect updated or correct documentation. This repository is a tool I built
 which I use myself and the code just happens to be publicly available.
 
-# Thing
+# Installation
+
+### From Release (download executable):
+
+- Curl 
+
+```bash
+sudo curl -L -o /usr/local/bin/mo https://github.com/FluffySnowman/mo/releases/download/v1.0.0/mo_x86_64-unknown-linux-gnu && sudo chmod +x /usr/local/bin/mo
+```
+
+- Wget
+
+```bash
+sudo wget -O /usr/local/bin/mo https://github.com/FluffySnowman/mo/releases/download/v1.0.0/mo_x86_64-unknown-linux-gnu && sudo chmod +x /usr/local/bin/sp 
+```
+
+
+### Build from source:
+
+```bash 
+git clone https://github.com/fluffysnowman/mo
+cd mo 
+make build install
+```
+
+and the `mo` executable will be present in `/usr/local/bin/mo`. make sure this
+is in your `$PATH`
+
+# Thing for the thing of the thing's thing
 
 ```bash
 mo - s3-compatible object storage manager
